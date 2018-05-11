@@ -1,0 +1,235 @@
+body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #2d3c49;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+  color: #2d3c49;
+  margin: 0px;
+}
+
+.project-image{
+  display:block;
+  margin: 0px;
+  width: 80%;
+  max-width: 90%;
+  height: 50%;
+  max-height:80%;
+}
+
+section{
+  margin-top: 15px;
+}
+
+.featured-work{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.project-1, .project-2, .project-3{
+  margin-top: 10px;
+}
+
+.border{
+  border: 2px #02b3e4 solid;
+  width: 100%;
+}
+
+/*Nexus 5 is 360x640
+*/
+@media screen and (max-width: 640px){
+  header{
+    width:100%;
+    display: flex;
+    border-bottom: solid;
+    border-color: #2d3c49;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    height: 40px;
+    margin: 0.5em;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 1em;
+    text-align: right;
+  }
+
+  #me-liam{
+    width: 100%;
+  }
+
+  .featured-work{
+    color:#7d97ad;
+    width: 100%;
+    display: flex;
+  }
+
+  .project-image{
+    display:block;
+    width: 100%;
+  }
+
+  .project-title{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+/*iPad is 768x1024
+*/
+@media screen and (min-width: 641px) and (max-width: 800px){
+  header {
+    width:100%;
+    display: flex;
+    border-bottom: solid;
+    border-color: #2d3c49;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    height: 80px;
+    margin: 1em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+    text-align: right;
+  }
+
+  #me-liam {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    order: 0;
+  }
+
+  .featured-work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    order: 2;
+    color:#7d97ad;
+    font-size: 2em;
+  }
+
+  .featured-work{
+    display: flex;
+  }
+
+  .project-1{
+    order: 3;
+    width: 33.33%;
+  }
+
+  .project-2{
+    order: 4;
+    width: 33.33%;
+  }
+
+  .project-3{
+    order: 5;
+    width: 33.33%;
+  }
+
+  .project-title{
+    text-align: center;
+  }
+}
+
+/*Desktop and horizontal tablets
+*/
+@media screen and (min-width: 801px){
+  header{
+    width:100%;
+    display: flex;
+    margin:auto;
+    border-bottom: solid;
+    border-color: #2d3c49;
+    justify-content: space-around;
+    padding: 1em;
+  }
+
+  .header-logo {
+    max-height: 100px;
+    margin: 1.5em;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    text-align: right;
+  }
+
+  #me-liam{
+    display: flex;
+    width: 95%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    order:0;
+  }
+
+  h3 {
+    color:#7d97ad;
+    order: 1;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+  }
+
+  .featured-work{
+    display: flex;
+  }
+
+  .project-1{
+    order: 3;
+    width:33.33%;
+  }
+
+  .project-2{
+    order: 4;
+    width:33.33%;
+  }
+
+  .project-3{
+    order: 5;
+    width:33.33%;
+  }
+
+  .project-title{
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
