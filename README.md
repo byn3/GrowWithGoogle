@@ -1,6 +1,6 @@
 # gwg18 - Grow With Google Challenge Scholarship 2018
 
-TLDR: Top 1% of the challenge program got chosen for a free nanodegree. Basically, Google|Udacity got 100k+ applicants, 15k chosen for phase 1, 1.5k moved on to the phase 2 nanodegree (Udacity's educational product). Other tracks do exist like the Android dev, I am in web dev.
+TLDR: Top 1% of the challenge program got chosen for a free nanodegree. Basically, Google|Udacity got 100k+ applicants, 15k chosen for phase 1, 1.5k moved on to the phase 2 nanodegree (Udacity's educational product). Other tracks do exist like the Android dev; I am in web dev.
 
 In January 2018, Udacity selected 15,000 individuals for phase 1 of the Grow with Google challenge. Out of 100k+ applicants, I was one of the scholarship recipients. For 3 months (Jan, Feb, Mar) thousands of phase 1 students built a community to learn the basics of web development, including HTML, CSS, JavaScript, and jQuery. I met fellow recipients at local meetups and helped loads of other students with the material via forums and Slack.
 
